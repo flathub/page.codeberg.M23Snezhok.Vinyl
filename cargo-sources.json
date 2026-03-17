@@ -41,14 +41,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/anyhow/anyhow-1.0.101.crate",
-        "sha256": "5f0e0fee31ef5ed1ba1316088939cea399010ed7731dba877ed44aeb407a75ea",
-        "dest": "cargo/vendor/anyhow-1.0.101"
+        "url": "https://static.crates.io/crates/anyhow/anyhow-1.0.102.crate",
+        "sha256": "7f202df86484c868dbad7eaa557ef785d5c66295e41b460ef922eca0723b842c",
+        "dest": "cargo/vendor/anyhow-1.0.102"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"5f0e0fee31ef5ed1ba1316088939cea399010ed7731dba877ed44aeb407a75ea\", \"files\": {}}",
-        "dest": "cargo/vendor/anyhow-1.0.101",
+        "contents": "{\"package\": \"7f202df86484c868dbad7eaa557ef785d5c66295e41b460ef922eca0723b842c\", \"files\": {}}",
+        "dest": "cargo/vendor/anyhow-1.0.102",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -1575,14 +1575,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/lofty/lofty-0.23.2.crate",
-        "sha256": "179408be6ddda3771589a4e940b1b5718613fa9986d78f420890d20e2b6fc278",
-        "dest": "cargo/vendor/lofty-0.23.2"
+        "url": "https://static.crates.io/crates/lofty/lofty-0.23.3.crate",
+        "sha256": "6d0c107dba5af049cf1c36b646fc1ba0cd2705f40d766d2c4c64f1b797c5fbed",
+        "dest": "cargo/vendor/lofty-0.23.3"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"179408be6ddda3771589a4e940b1b5718613fa9986d78f420890d20e2b6fc278\", \"files\": {}}",
-        "dest": "cargo/vendor/lofty-0.23.2",
+        "contents": "{\"package\": \"6d0c107dba5af049cf1c36b646fc1ba0cd2705f40d766d2c4c64f1b797c5fbed\", \"files\": {}}",
+        "dest": "cargo/vendor/lofty-0.23.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -1627,14 +1627,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/lyrx/lyrx-0.2.1.crate",
-        "sha256": "806d9a7b31fdd1db9e67585075f2f62e078bbde6d60e4acdac804e3669c7fac3",
-        "dest": "cargo/vendor/lyrx-0.2.1"
+        "url": "https://static.crates.io/crates/lyrx/lyrx-0.2.2.crate",
+        "sha256": "a4feeaf2534157bd367e223065dab066bf1e70a5881ba3d4db9ca96019da6aa0",
+        "dest": "cargo/vendor/lyrx-0.2.2"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"806d9a7b31fdd1db9e67585075f2f62e078bbde6d60e4acdac804e3669c7fac3\", \"files\": {}}",
-        "dest": "cargo/vendor/lyrx-0.2.1",
+        "contents": "{\"package\": \"a4feeaf2534157bd367e223065dab066bf1e70a5881ba3d4db9ca96019da6aa0\", \"files\": {}}",
+        "dest": "cargo/vendor/lyrx-0.2.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
