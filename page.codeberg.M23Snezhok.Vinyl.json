@@ -1,7 +1,7 @@
 {
     "id" : "page.codeberg.M23Snezhok.Vinyl",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "49",
+    "runtime-version" : "50",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -42,8 +42,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://codeberg.org/M23Snezhok/Vinyl/archive/v1.1.0.tar.gz",
-                    "sha256": "a945d7cdeada72b85f9d161610c6f9c7e03d3cb5dc358ef7f7270c362a57b5b9"
+                    "url" : "https://codeberg.org/M23Snezhok/Vinyl/archive/v1.2.0.tar.gz",
+                    "sha256": "8e5fca9974441a946c57b67070d7d4f296f7800b492f87a7ff53252f1caac60e"
                 },
                 "cargo-sources.json"
             ]
