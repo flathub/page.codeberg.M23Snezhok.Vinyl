@@ -6,7 +6,7 @@
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
-    "command" : "Vinyl",
+    "command" : "vinyl-player",
     "finish-args" : [
         "--share=ipc",
         "--socket=fallback-x11",
@@ -25,14 +25,14 @@
                     "CARGO_HOME": "/run/build/Vinyl/cargo",
                     "CARGO_NET_OFFLINE": "true",
                     "RUST_BACKTRACE" : "1",
-                    "RUST_LOG" : "Vinyl=debug"
+                    "RUST_LOG" : "vinyl-player=debug"
                 }
             },
             "build-commands": [
                 "install -Dm0644 cargo/config .cargo/config.toml",
                 "cargo --offline fetch --manifest-path Cargo.toml --verbose",
                 "cargo build --offline --release --all-features",
-                "install -Dm0755 target/release/Vinyl ${FLATPAK_DEST}/bin/Vinyl",
+                "install -Dm0755 target/release/vinyl-player ${FLATPAK_DEST}/bin/vinyl-player",
                 "install -Dm0644 data/hicolor/scalable/apps/page.codeberg.M23Snezhok.Vinyl.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg",
                 "install -Dm0644 data/hicolor/symbolic/apps/page.codeberg.M23Snezhok.Vinyl-symbolic.svg ${FLATPAK_DEST}/share/icons/hicolor/symbolic/apps/${FLATPAK_ID}-symbolic.svg",
                 "install -Dm0644 data/page.codeberg.M23Snezhok.Vinyl.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
@@ -42,8 +42,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://codeberg.org/M23Snezhok/Vinyl/archive/v1.2.1.tar.gz",
-                    "sha256": "17b7bd735aa32b49ae7f0d89b4cfe92b41ca960e8b34984b6d437eea3073664e"
+                    "url" : "https://codeberg.org/M23Snezhok/Vinyl/archive/v1.2.2.tar.gz",
+                    "sha256": "faab975cec5530f14675260d852a38031816cdf9e417e0f614d107c8dbc8d3d2"
                 },
                 "cargo-sources.json"
             ]
